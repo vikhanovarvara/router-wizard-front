@@ -1,0 +1,27 @@
+{
+  "semi": true,
+  "printWidth": 120,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "importOrder": [
+    "^(react|next)",
+    "<THIRD_PARTY_MODULES>",
+    "^(store|http)",
+    "^layouts",
+    "^components/(.*)$",
+    "^shared/(.*)$",
+    "^types",
+    "^(hooks|helpers|packages|utils|constants)",
+    "^themes",
+    "^(\\.\\.?\\/)+\\w+(/\\w+)*(?!((\\.s?css)|(\\.module\\.s?css)|(\\.styles)))(\\.\\w+)*$",
+    "^(\\.\\.?\\/)+\\w+(/\\w+)*\\.((s?css)|(module\\.s?css)|(styles))",
+    "^(assets|@mui/icons-material/)"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "endOfLine": "lf"
+}
