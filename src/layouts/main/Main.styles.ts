@@ -1,15 +1,11 @@
 import { createSx } from 'themes';
 
-import vv from '../../assets/vv.jpg';
-
 const sx = createSx({
   layout: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     minHeight: '100vh',
-
-    background: `url(${vv})`,
 
     gap: {
       md: '50px',
